@@ -1,0 +1,165 @@
+{
+  "associate": [
+    {
+      "id": "0",
+      "name": "Manyi wa Watuka",
+      "email": "ramesh@in.com",
+      "phone": "899089898",
+      "associategroup": "level2",
+      "address": " chennai\nIndai",
+      "type": "SUPPLIER",
+      "status": false
+    },
+    {
+      "id": "1",
+      "name": "Manyi wa Watuka",
+      "email": "akbar@in.com",
+      "phone": "899089898",
+      "associategroup": "level3",
+      "address": "2 nRamraj street Indai",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": "2",
+      "name": "Manyi wa Watuka",
+      "email": "ramesh@inc.com",
+      "phone": "899089898",
+      "associategroup": "level2",
+      "address": "Ramraj chennai test",
+      "type": "CUSTOMER",
+      "status": true
+    },
+    {
+      "id": "3",
+      "name": "Elias Kinya",
+      "email": "elias@gmail.com",
+      "phone": "0724567345",
+      "associategroup": "level3",
+      "address": "Muranga",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "4",
+      "name": "Dennis Mukavi",
+      "email": "dennis@gmail.com",
+      "phone": "0765772635",
+      "associategroup": "level3",
+      "address": "Woote,\n4th floor. Muindi Bingu street.",
+      "type": "SUPPLIER",
+      "status": true
+    },
+    {
+      "id": "5",
+      "name": "Regina Kisau",
+      "email": "regkisau@outlook.com",
+      "phone": "0724500650",
+      "associategroup": "level3",
+      "address": "Kirinyaga Road.\nNairobi.",
+      "type": "SUPPLIER",
+      "status": true
+    }
+  ],
+  "user": [
+    {
+      "id": "0b18",
+      "username": "admin",
+      "password": "1234",
+      "name": "Adminuser",
+      "email": "ad@in.com",
+      "phone": "6748483",
+      "gender": "male",
+      "role": "admin",
+      "status": true
+    },
+    {
+      "id": "6d11",
+      "username": "njenga",
+      "password": "1234",
+      "name": "James Njenga",
+      "email": "njenga@gmail.com",
+      "phone": "0789657456",
+      "gender": "male",
+      "role": "manager",
+      "status": true
+    },
+    {
+      "id": "7ceb",
+      "username": "njambi",
+      "password": "1234",
+      "name": "Ann Njambi",
+      "email": "ann@gmail.com",
+      "phone": "0701432249",
+      "gender": "female",
+      "role": "user",
+      "status": true
+    }
+  ],
+  "role": [
+    {
+      "code": "admin",
+      "name": "Admin",
+      "id": "e80b"
+    },
+    {
+      "code": "manager",
+      "name": "Manager",
+      "id": "ba87"
+    },
+    {
+      "code": "user",
+      "name": "User",
+      "id": "e906"
+    }
+  ],
+  "menu": [
+    {
+      "code": "associate",
+      "Name": "Associate",
+      "id": "dad9"
+    },
+    {
+      "code": "customer",
+      "Name": "Customer",
+      "id": "7533"
+    },
+    {
+      "code": "user",
+      "Name": "User",
+      "id": "3bae"
+    }
+  ],
+  "roleaccess": [
+    {
+      "role": "admin",
+      "menu": "associate",
+      "id": "e948"
+    },
+    {
+      "role": "admin",
+      "menu": "customer",
+      "id": "ab18"
+    },
+    {
+      "role": "admin",
+      "menu": "user",
+      "id": "fd4b"
+    },
+    {
+      "role": "manager",
+      "menu": "associate",
+      "id": "4db8"
+    },
+    {
+      "role": "manager",
+      "menu": "customer",
+      "id": "1528"
+    },
+    {
+      "role": "user",
+      "menu": "associate",
+      "id": "5249"
+    }
+  ]
+}
